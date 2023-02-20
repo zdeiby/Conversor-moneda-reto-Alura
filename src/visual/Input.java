@@ -37,52 +37,174 @@ public class Input extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == boton1){
             if(textoInput == "cop a dolar"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto/4883)*100d)/100d) +" Dolares.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                    JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE/4883)*100d)/100d) +" Dolares.");
+                };
+            
+                
             }
             if(textoInput == "cop a euros"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto/5221)*100d)/100d) +" Euros.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                    JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE/5221)*100d)/100d) +" Euros.");
+                }
             }
             if(textoInput == "cop a libras esterlinas"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto/5876)*100d)/100d) +" Libras esterlinas.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE/5876)*100d)/100d) +" Libras esterlinas.");
+                }
             }
             if(textoInput == "cop a yen japones"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto/36.37)*100d)/100d) +" yenes japoneses.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE/36.37)*100d)/100d) +" yenes japoneses.");
+                }
             }
             if(textoInput == "cop a won sul-coreano"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto/3.77)*100d)/100d) +" won sul coreanos.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE/3.77)*100d)/100d) +" won sul coreanos.");
+                }
             }
             if(textoInput == "dolar a cop"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto*4883)*100d)/100d) +" Pesos COP.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE*4883)*100d)/100d) +" Pesos COP.");
+                }
             }
             if(textoInput == "euros a cop"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto*5221)*100d)/100d) +" Pesos colombianos.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE*5221)*100d)/100d) +" Pesos colombianos.");
+                }
             }
             if(textoInput == "libras esterlinas a cop"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto*5876)*100d)/100d) +" Pesos colombianos");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE*5876)*100d)/100d) +" Pesos colombianos");
+                }
             }
             if(textoInput == "yen japones a cop"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto*36.37)*100d)/100d) +" Pesos colombianos.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE*36.37)*100d)/100d) +" Pesos colombianos.");
+                }
             }
             if(textoInput == "won sul-coreano a cop"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto*3.77)*100d)/100d) +" Pesos colombianos.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE*3.77)*100d)/100d) +" Pesos colombianos.");
+                }
             }
             if(textoInput == "km/h a millas por hora"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto*0.62)*100d)/100d) +" Millas por hora.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE*0.62)*100d)/100d) +" Millas por hora.");
+                }
             }
             if(textoInput == "millas por hora a km/h"){
-                double texto = Double.parseDouble(input.getText());
-                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((texto/0.62)*100d)/100d) +" KM/H.");
+                String textoGuardado=input.getText();
+                double textoE=0;
+                try{
+                    double texto = Double.parseDouble(textoGuardado);
+                    textoE=texto;
+                }catch (NumberFormatException error){
+                    JOptionPane.showMessageDialog(null, "Ingresa numeros, caracteres no validos");
+                    //(Object)textoE).getClass().getSimpleName() == "Double"
+                }
+                if(textoE != 0){
+                JOptionPane.showMessageDialog(null, "su resultado es: "+((double)Math.round((textoE/0.62)*100d)/100d) +" KM/H.");
+                }
             }
 
             

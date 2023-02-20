@@ -2,7 +2,6 @@
 
 https://user-images.githubusercontent.com/111442309/220002778-0c1ddd62-11f7-488c-959b-4be01ebe63fe.mp4
 
-![image](https://user-images.githubusercontent.com/111442309/220001928-f417d79d-57af-4839-b943-be15acf54b70.png)
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
